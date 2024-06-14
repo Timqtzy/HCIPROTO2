@@ -20,8 +20,10 @@ body{
     border: none;
 }
 
-#logo:hover{
+#logo{
     cursor: pointer;
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -180,7 +182,7 @@ body{
 #container5Img{
     width: 50%;
     height: auto;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 .contentofpage5 h2{
     font-family: 'outfit';
@@ -191,7 +193,6 @@ body{
     font-weight: 400;
     color: #141414;
     padding: 2px 0;
-    letter-spacing: 1px;
     
 }
 .Container5txt{
@@ -202,7 +203,7 @@ body{
 
 
 .seventhPage{
-    background-color: #F3F4F6;
+    background-color: #FFFFFF;
 }
 .container7{
     width: 100%;
@@ -227,14 +228,16 @@ body{
     color: #615EFC;
 }
 
-
+.eightPage{
+    background-color: #F3F4F6;
+}
 .container8{
     padding: 50px 0;
 }
 .student{
     padding: 50px 0;
     font-family: 'outfit';
-    background-color: #d6d6ff;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px 15px;
     width: 30%;
@@ -431,7 +434,7 @@ body{
 
 @media (max-width:1440px) {
     .HeroHeadingH p{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .img img{
         width: 100%;
@@ -439,49 +442,194 @@ body{
 }
 
 @media (max-width:1024px) {
+    .navigation a{
+        font-size: 14px;
+        border-radius: 2px;
+    }
+    .navigation li a{
+        font-size: 14px ;
+    }
+    .navigation ul li{
+        margin: 0 10px;
+    }
+    #logo{
+        width: 25px;
+        height: 25px;
+    }
+    #logoFooter{
+        width: 50px;
+        height: 50px;
+    }
     .HeroHeadingH p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .SubHeadingp{
-        font-size: 14px;
+        font-size: 12px;
     }
-    .img img{
-        width: 100%;
+    #learnMore-btn{
+        padding: 6px;
+        font-size: 12px;
+    }
+   
+
+    .container2{
+        display: flex;
+        height: max-content;
+    }
+    .contentofPage2 h2{
+        font-size: 18px;
+    }
+    .contentofPage2 p{
+        font-size: 10px;
     }
 
+    #choose{
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .container3{
+        height: max-content;
+    }
+    .contentofpage3 h1{
+        font-size: 14px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .contentofpage3 p{
+        font-size: 12px;
+    }
+
+    .container4{
+        height: fit-content;
+        display: flex;
+    }
+
+    .contentofpage4 h1{
+        font-size: 14px;
+        font-weight: 500;
+        
+    }
+    .contentofpage4 p{
+        font-size: 12px;
+        
+    }
+
+    #container4Img{
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    .container5{
+        height: fit-content;
+    }
+
+    #container5Img{
+        width: 250px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .Container5txt h2{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .Container5txt p{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .container7{
+        height: fit-content;
+    }
+    .contentofpage7 h1{
+        font-size: 14px;
+    }
+    .contentofpage7 p{
+        font-size: 12px;
+    }
+
+
+    .contentofpage8 h1{
+        font-size: 14px;
+    }
+    .info h4{
+        font-size: 14px;
+        margin: 4px 0;
+    } 
+    .info p{
+        font-size: 12px;
+    }
+    .contenttxt{
+        font-size: 12px;
+    }
+    .star{
+        font-size: 10px;
+    }
+
+    .student img{
+        height: 25px;
+    }
+
+    #Welcome{
+        font-size: 16px;
+    }
+
+  
     .group-1{
         width: 50%;
         margin: 0px;
     }
     .group-2{
-        padding: 40px;
+        padding: 40px 0;
     }
     .group-1 h3{
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 10px;
+        font-weight: 200;
     }
     .group-1 p{
-        font-size: 12px;
+        font-size: 8px;
+        font-weight: 50;
     }
 
     #emailFooter{
-        font-size: 14px;
-        padding: 12px;
-        width: 280px;
+        font-size: 8px;
+        padding: 6px;
+        width: 90px;
+        border-radius: 1px;
     }
     #Subscribe-btn{
-        font-size: 14px;
-        padding: 12px;
+        font-size: 8px;
+        padding: 6px;
+        border-radius: 1px;
     }
     .group-2{
-        padding: 49px 0;
+        padding: 40px 0;
         width: 50%;
     }
+    .group-2 i{
+        display: none;
+    }
     .group-2 h3{
-        font-size: 14px;
+        font-size: 10px;
     }
     .group-2 p{
-        font-size: 12px;
+        font-size: 8px;
+    }
+
+    .AboutUs{
+        margin: 0 10px;
+    }
+    .Links{
+        margin: 0 10px;
+    }
+    .FollowUs{
+        margin: 0 10px;
+    }
+
+    .copyright p{
+        font-size: 8px;
     }
 
 }
@@ -490,6 +638,24 @@ body{
 
 
 @media (max-width:768px) {
+    .navigation a{
+        font-size: 14px;
+        border-radius: 2px;
+    }
+    .navigation li a{
+        font-size: 14px ;
+    }
+    .navigation ul li{
+        margin: 0 10px;
+    }
+    #logo{
+        width: 25px;
+        height: 25px;
+    }
+    #logoFooter{
+        width: 50px;
+        height: 50px;
+    }
     .HeroHeadingH p{
         font-size: 1.5rem;
     }
@@ -497,61 +663,177 @@ body{
         font-size: 12px;
     }
     #learnMore-btn{
-        padding: 8px;
+        padding: 6px;
         font-size: 12px;
+    }
+   
+
+    .container2{
+        display: flex;
+        height: max-content;
+    }
+    .contentofPage2 h2{
+        font-size: 18px;
+    }
+    .contentofPage2 p{
+        font-size: 10px;
+    }
+
+    #choose{
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .container3{
+        height: max-content;
+    }
+    .contentofpage3 h1{
+        font-size: 12px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .contentofpage3 p{
+        font-size: 10px;
+    }
+
+    .container4{
+        height: fit-content;
+        display: flex;
+    }
+
+    .contentofpage4 h1{
+        font-size: 14px;
+        font-weight: 500;
+        
+    }
+    .contentofpage4 p{
+        font-size: 12px;
+        
+    }
+
+    #container4Img{
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    .container5{
+        height: fit-content;
+    }
+
+    #container5Img{
+        width: 250px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .Container5txt h2{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .Container5txt p{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .container7{
+        height: fit-content;
+    }
+    .contentofpage7 h1{
+        font-size: 14px;
+    }
+    .contentofpage7 p{
+        font-size: 10px;
     }
 
 
+    .contentofpage8 h1{
+        font-size: 12px;
+    }
+    .info h4{
+        font-size: 12px;
+        margin: 4px 0;
+    } 
+    .info p{
+        font-size: 10px;
+    }
+    .contenttxt{
+        font-size: 10px;
+    }
+    .star{
+        font-size: 8px;
+    }
+
+    .student img{
+        height: 25px;
+    }
+
+    #Welcome{
+        font-size: 16px;
+    }
+
+  
     .group-1{
         width: 50%;
         margin: 0px;
     }
     .group-2{
-        padding: 40px;
+        padding: 40px 0;
     }
     .group-1 h3{
-        font-size: 12px;
-        font-weight: 400;
+        font-size: 10px;
+        font-weight: 200;
     }
     .group-1 p{
-        font-size: 10px;
+        font-size: 8px;
+        font-weight: 50;
     }
 
     #emailFooter{
-        font-size: 12px;
-        padding: 8px;
-        width: 200px;
+        font-size: 8px;
+        padding: 6px;
+        width: 90px;
+        border-radius: 1px;
     }
     #Subscribe-btn{
-        font-size: 12px;
-        padding: 8px;
+        font-size: 8px;
+        padding: 6px;
+        border-radius: 1px;
     }
     .group-2{
         padding: 40px 0;
         width: 50%;
     }
+    .group-2 i{
+        display: none;
+    }
     .group-2 h3{
-        font-size: 12px;
+        font-size: 10px;
     }
     .group-2 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .AboutUs{
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .Links{
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .FollowUs{
-        margin: 0 20px;
+        margin: 0 10px;
+    }
+
+    .copyright p{
+        font-size: 8px;
     }
 }
 
 
 @media (max-width:425px) {
     .navigation a{
-        font-size: 10px ;
+        font-size: 10px;
+        border-radius: 2px;
     }
     .navigation li a{
         font-size: 10px ;
@@ -563,9 +845,13 @@ body{
         text-align: center;
         height: max-content;
     }
-    #logoFooter{
+    #logo{
         width: 25px;
-        height: auto;
+        height: 25px;
+    }
+    #logoFooter{
+        width: 50px;
+        height: 50px;
     }
     .HeroHeadingH p{
         font-size: .5rem;
@@ -603,7 +889,8 @@ body{
     }
     .contentofpage3 h1{
         font-size: 12px;
-        margin: 20px;
+        margin: 0;
+        margin-right: 30px;
     }
     .contentofpage3 p{
         font-size: 8px;
@@ -640,7 +927,7 @@ body{
     }
 
     .Container5txt h2{
-        font-size: 12px;
+        font-size: 10px;
         margin: 5px 0;
     }
     .Container5txt p{
@@ -680,24 +967,9 @@ body{
         height: 25px;
     }
 
-
-
-
-
-
-
-
-
-
-
     #Welcome{
         font-size: 16px;
     }
-
-
-
-
-
 
     .group-1{
         width: 50%;
@@ -716,14 +988,14 @@ body{
     }
 
     #emailFooter{
-        font-size: 10px;
-        padding: 4px;
-        width: 80px;
+        font-size: 8px;
+        padding: 6px;
+        width: 90px;
         border-radius: 1px;
     }
     #Subscribe-btn{
-        font-size: 10px;
-        padding: 4px;
+        font-size: 8px;
+        padding: 6px;
         border-radius: 1px;
     }
     .group-2{
@@ -734,10 +1006,10 @@ body{
         display: none;
     }
     .group-2 h3{
-        font-size: 10px;
+        font-size: 6px;
     }
     .group-2 p{
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .AboutUs{
@@ -755,5 +1027,200 @@ body{
     }
 }
 
+
+@media (max-width:375px) {
+    .navigation a{
+        font-size: 8px;
+        border-radius: 2px;
+    }
+    .navigation li a{
+        font-size: 8px ;
+    }
+    .navigation ul li{
+        margin: 0 4px;
+    }
+    .container1{
+        text-align: center;
+        height: max-content;
+    }
+    #logo{
+        width: 20px;
+        height: 20px;
+    }
+    #logoFooter{
+        width: 40px;
+        height: 40px;
+    }
+    .HeroHeadingH p{
+        font-size: .5rem;
+    }
+    .SubHeadingp{
+        font-size: 6px;
+    }
+    #learnMore-btn{
+        padding: 4px;
+        font-size: 6px;
+    }
+    #lappy{
+        display: none;
+    }
+
+    .container2{
+        display: flex;
+        height: max-content;
+    }
+    .contentofPage2 h2{
+        font-size: 10px;
+    }
+    .contentofPage2 p{
+        font-size: 6px;
+    }
+
+    #choose{
+        width: 150px;
+        height: auto;
+        margin: 0;
+    }
+
+    .container3{
+        height: max-content;
+    }
+    .contentofpage3 h1{
+        font-size: 12px;
+    }
+    .contentofpage3 p{
+        font-size: 8px;
+    }
+
+    .container4{
+        height: fit-content;
+        display: flex;
+    }
+
+    .contentofpage4 h1{
+        font-size: 10px;
+        font-weight: 400;
+        
+    }
+    .contentofpage4 p{
+        font-size: 5px;
+        
+    }
+
+    #container4Img{
+        margin-left: 4px;
+        width: 150px;
+    }
+
+    .container5{
+        height: fit-content;
+    }
+
+    #container5Img{
+        width: 150px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .Container5txt h2{
+        font-size: 7px;
+        margin: 5px 0;
+    }
+    .Container5txt p{
+        font-size: 6px;
+        margin: 0;
+    }
+
+    .container7{
+        height: fit-content;
+    }
+    .contentofpage7 h1{
+        font-size: 10px;
+    }
+    .contentofpage7 p{
+        font-size: 8px;
+    }
+
+
+    .contentofpage8 h1{
+        font-size: 12px;
+    }
+    .info h4{
+        font-size: 8px;
+        margin: 4px 0;
+    } 
+    .info p{
+        font-size: 6px;
+    }
+    .contenttxt{
+        font-size: 5px;
+    }
+    .star{
+        font-size: 6px;
+    }
+
+    .student img{
+        height: 25px;
+    }
+
+    #Welcome{
+        font-size: 14spx;
+    }
+    
+    .group-1{
+        width: 50%;
+        margin: 0px;
+    }
+    .group-1{
+        padding: 20px 0;
+    }
+    .group-1 h3{
+        font-size: 6px;
+        font-weight: 200;
+    }
+    .group-1 p{
+        font-size: 4px;
+        font-weight: 50;
+    }
+
+    #emailFooter{
+        font-size: 6px;
+        padding: 6px;
+        width: 70px;
+        border-radius: 1px;
+    }
+    #Subscribe-btn{
+        font-size: 6px;
+        padding: 6px;
+        border-radius: 1px;
+    }
+    .group-2{
+        padding: 20px 0;
+        width: 50%;
+    }
+    .group-2 i{
+        display: none;
+    }
+    .group-2 h3{
+        font-size: 5px;
+    }
+    .group-2 p{
+        font-size: 4px;
+    }
+
+    .AboutUs{
+        margin: 0 10px;
+    }
+    .Links{
+        margin: 0 10px;
+    }
+    .FollowUs{
+        margin: 0 10px;
+    }
+
+    .copyright p{
+        font-size: 6px;
+    }
+}
 
 

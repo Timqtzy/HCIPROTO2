@@ -1624,6 +1624,54 @@ body{
 
 @media (max-width:320px) {
 
+    .container2{
+        display: flex;
+        height: fit-content;
+    }
+    .contentofPage2 h2{
+        font-size: 8px;
+    }
+    .contentofPage2 p{
+        font-size: 6px;
+    }
+
+    #choose{
+        width: 110px;
+        height: auto;
+        margin-left: 8px;
+    }
+
+
+    .contentofpage4 h1{
+        font-size: 8px;
+        font-weight: 400;
+        
+    }
+    .contentofpage4 p{
+        font-size: 4px;
+        
+    }
+
+    #container4Img{
+        margin-left: 4px;
+        width: 130px;
+    }
+
+    #container5Img{
+        width: 120px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .Container5txt h2{
+        font-size: 8px;
+        margin: 5px 0;
+    }
+    .Container5txt p{
+        font-size: 5px;
+        margin: 0;
+    
+    }
 
     #emailFooter{
         font-size: 4px;

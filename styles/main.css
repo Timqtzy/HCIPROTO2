@@ -971,29 +971,30 @@ body{
   
     .group-1{
         width: 50%;
+        margin: 0;
     }
     .group-2{
         padding: 40px 0;
     }
     .group-1 h3{
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 200;
     }
     .group-1 p{
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 50;
     }
 
     #emailFooter{
-        font-size: 8px;
-        padding: 6px;
-        width: 90px;
-        border-radius: 1px;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        border-radius: 2px;
     }
     #Subscribe-btn{
-        font-size: 8px;
-        padding: 6px;
-        border-radius: 1px;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 2px;
     }
     .group-2{
         padding: 40px 0;
@@ -1001,28 +1002,26 @@ body{
         display: flex;
         justify-content: flex-end;
     }
-    .group-2 i{
-        display: none;
-    }
+    
     .group-2 h3{
-        font-size: 10px;
+        font-size: 16px;
     }
     .group-2 p{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .AboutUs{
-        margin: 0 10px;
+        margin: 0 15px;
     }
     .Links{
-        margin: 0 10px;
+        margin: 0 15px;
     }
     .FollowUs{
-        margin: 0 10px;
+        margin: 0 15px;
     }
 
     .copyright p{
-        font-size: 8px;
+        font-size: 12px;
     }
 
 }

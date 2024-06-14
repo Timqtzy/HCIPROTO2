@@ -579,7 +579,6 @@ body{
   
     .group-1{
         width: 50%;
-        margin: 0px;
     }
     .group-2{
         padding: 40px 0;
@@ -607,6 +606,8 @@ body{
     .group-2{
         padding: 40px 0;
         width: 50%;
+        display: flex;
+        justify-content: flex-end;
     }
     .group-2 i{
         display: none;
@@ -775,7 +776,7 @@ body{
   
     .group-1{
         width: 50%;
-        margin: 0px;
+        margin-right: 50px;
     }
     .group-2{
         padding: 40px 0;
@@ -1223,4 +1224,47 @@ body{
     }
 }
 
+@media (max-width:320px) {
 
+
+    #emailFooter{
+        font-size: 4px;
+        padding: 6px;
+        width: 70px;
+        border-radius: 1px;
+    }
+    #Subscribe-btn{
+        font-size: 4px;
+        padding: 6px;
+        border-radius: 1px;
+    }
+
+
+
+    .group-2{
+        padding: 20px 0;
+        width: 50%;
+    }
+    .group-2 i{
+        display: none;
+    }
+    .group-2 h3{
+        font-size: 4px;
+    }
+    .group-2 p{
+        font-size: 4px;
+    }
+
+    .AboutUs{
+        margin: 0 8px;
+    }
+    .Links{
+        margin: 0 8px;
+    }
+    .FollowUs{
+        margin: 0 8px;
+    }
+    .copyright p{
+        font-size: 4px;
+    }
+}

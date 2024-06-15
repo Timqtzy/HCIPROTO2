@@ -324,6 +324,168 @@ body{
     text-align: center;
 }
 
+
+
+
+/*Contact*/
+.section1-contact{
+    
+    font-family: 'outfit';
+    background: linear-gradient(180deg, rgba(127, 102, 249, 0.33) 0%, rgba(62, 212, 217, 0.27) 100%);
+}
+.form-contact{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-contact h1{
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+.form-contact p{
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.Username{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-contact i{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.form-contact input{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: #9392ff;
+    opacity: 0.5;
+}
+.Username i{
+    font-size: 4px;
+    background-color: #9392ff;
+    color: #ffffff;
+    padding: 6px;
+}
+.Email{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Email i{
+    font-size: 4px;
+    background-color: #9392ff;
+    color: #ffffff;
+    padding: 6px;
+}
+
+.send-txt textarea{
+    font-family: 'outfit';
+    width: 192px;
+    border-color: #9392ff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.btn{
+    margin: 10px 0;
+
+}
+
+#send-btn{
+    padding: 6px 10px;
+    color: #FFFFFF;
+    background-color: #9392ff;
+    border: none;
+    border-radius: 2px;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+#send-btn:hover{
+   background-color: #010038;
+}
+.infocontact p{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+.content-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     display: flex;
     background-color: #222831;
@@ -617,6 +779,75 @@ body{
         font-size: 4rem;
     }
 
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 30%;
+    }
+    
+    .form-contact h1{
+        font-size: 24px;
+    }
+    .form-contact p{
+        font-size: 12px;
+    }
+    
+    .Username{
+        width: 93%;
+    }
+    .Username i{
+        width: autos;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 93%;
+    }
+    .Email i{
+        width: auto;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .Username i{
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    
+    .Email i{
+        font-size: 8px;
+        padding: 8px;
+    }
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 90%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 30px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    
+    /*contact end*/ 
   
     .group-1{
         width: 50%;
@@ -813,7 +1044,74 @@ body{
         font-size: 1.5rem;
     }
 
-  
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 50%;
+    }
+    
+    .form-contact h1{
+        font-size: 24px;
+    }
+    .form-contact p{
+        font-size: 12px;
+    }
+    
+    .Username{
+        width: 94%;
+    }
+    .Username i{
+        width: auto;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 94%;
+    }
+    .Email i{
+        width: auto;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .Username i{
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    
+    .Email i{
+        font-size: 8px;
+        padding: 8px;
+    }
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 90%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    
+    /*contact end*/ 
     .group-1{
         width: 50%;
     }
@@ -1008,7 +1306,75 @@ body{
         font-size: 16px;
     }
 
-  
+
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 50%;
+    }
+    
+    .form-contact h1{
+        font-size: 24px;
+    }
+    .form-contact p{
+        font-size: 12px;
+    }
+    
+    .Username{
+        width: 95%;
+    }
+    .Username i{
+        width: auto;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 95%;
+    }
+    .Email i{
+        width: auto;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .Username i{
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    
+    .Email i{
+        font-size: 8px;
+        padding: 8px;
+    }
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 90%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    
+    /*contact end*/ 
     .group-1{
         width: 50%;
         margin: 0;
@@ -1206,6 +1572,75 @@ body{
         font-size: 16px;
     }
 
+
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 50%;
+    }
+    
+    .form-contact h1{
+        font-size: 24px;
+    }
+    .form-contact p{
+        font-size: 12px;
+    }
+    
+    .Username{
+        width: 95%;
+    }
+    .Username i{
+        width: 10%;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 95%;
+    }
+    .Email i{
+        width: 10%;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .Username i{
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    
+    .Email i{
+        font-size: 8px;
+        padding: 8px;
+    }
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 90%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    
+    /*contact end*/    
   
     .group-1{
         width: 50%;
@@ -1409,6 +1844,76 @@ body{
         font-size: 16px;
     }
 
+
+
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 60%;
+    }
+    
+    .form-contact h1{
+        font-size: 18px;
+    }
+    .form-contact p{
+        font-size: 10px;
+    }
+    
+    .Username{
+        width: 95%;
+    }
+    .Username i{
+        width: auto;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 95%;
+    }
+    .Email i{
+        width: auto;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .Username i{
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    
+    .Email i{
+        font-size: 8px;
+        padding: 8px;
+    }
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 85%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    
+    /*contact end*/    
     .group-1{
         width: 50%;
         margin: 0px;
@@ -1604,6 +2109,66 @@ body{
     #Welcome{
         font-size: 14spx;
     }
+
+    /*Contact*/
+    .form-contact{
+        padding: 20px;
+        width: 60%;
+    }
+    
+    .form-contact h1{
+        font-size: 18px;
+    }
+    .form-contact p{
+        font-size: 10px;
+    }
+    
+    .Username{
+        width: 95%;
+    }
+    .Username i{
+        width: auto;
+    }
+    .Username input{
+        width: 100%;
+    }
+
+    .Email{
+        width: 95%;
+    }
+    .Email i{
+        width: auto;
+    }
+    .Email input{
+        width: 100%;
+    }
+    
+    .form-contact i{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+
+    
+    .send-txt{
+        width: 100%;
+    }
+    .send-txt #mytext{
+        width: 85%;
+    }
+    
+    .btn{
+        margin: 10px 0;
+    
+    }
+    
+    #send-btn{
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    
+    /*contact end*/    
     
     .group-1{
         width: 50%;
@@ -1721,6 +2286,67 @@ body{
         margin: 0;
     
     }
+
+
+
+        /*Contact*/
+        .form-contact{
+            padding: 20px;
+            width: 60%;
+        }
+        
+        .form-contact h1{
+            font-size: 18px;
+        }
+        .form-contact p{
+            font-size: 10px;
+        }
+        
+        .Username{
+            width: 95%;
+        }
+        .Username i{
+            width: auto;
+        }
+        .Username input{
+            width: 100%;
+        }
+    
+        .Email{
+            width: 95%;
+        }
+        .Email i{
+            width: auto;
+        }
+        .Email input{
+            width: 100%;
+        }
+        
+        .form-contact i{
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        
+        
+        .send-txt{
+            width: 100%;
+        }
+        .send-txt #mytext{
+            width: 85%;
+        }
+        
+        .btn{
+            margin: 10px 0;
+        
+        }
+        
+        #send-btn{
+            padding: 8px 10px;
+            border-radius: 4px;
+        }
+    
+        
+        /*contact end*/    
 
     #emailFooter{
         font-size: 4px;

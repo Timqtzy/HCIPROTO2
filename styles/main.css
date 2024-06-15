@@ -906,6 +906,73 @@ iframe{
 }
 
 
+
+
+
+
+
+@media (max-width: 1920px){
+    .group-1{
+        width: 50%;
+    }
+    .group-2{
+        padding: 40px 0;
+    }
+    .group-1 h3{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    .group-1 p{
+        font-size: 20px;
+        font-weight: 50;
+    }
+
+    #emailFooter{
+        font-size: 1rem;
+        padding: 12px;
+        width: 500px;
+        border-radius: 4px;
+    }
+    #Subscribe-btn{
+        font-size: 1rem;
+        padding: 12px;
+        border-radius: 4px;
+    }
+    .group-2{
+        padding: 40px 0;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+    .group-2 h3{
+        font-size: 2rem;
+    }
+    .group-2 p{
+        font-size: 18px;
+    }
+
+    .AboutUs{
+        margin: 0 30px;
+    }
+    .Links{
+        margin: 0 30px;
+    }
+    .FollowUs{
+        margin: 0 30px;
+    }
+
+    .copyright p{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
 @media (max-width:1440px) {
     .navigation a{
         font-size: 16px;

@@ -695,6 +695,7 @@ iframe{
     border-radius: 4px;
     margin-right: 10px;
     transition-property: border;
+    border: none;
 }
 #emailFooter:hover{
     border-color: #615EFC;

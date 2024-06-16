@@ -40,11 +40,12 @@ body{
     font-weight: 400;
     color: #010038;
     transition: color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
 }
 .navigation li a:hover{
     color: #615EFC;
-    transition-timing-function: ease-in;
-    transition-delay: .1s;
 }
 .navigation ul{
     display: flex;
@@ -423,11 +424,6 @@ body{
 
 
 
-
-
-
-
-
 .content-contact{
     display: flex;
     align-items: center;
@@ -442,7 +438,176 @@ iframe{
 
 }
 
+/*News*/
+/*News ongoing*/
+.content-news{
+    text-align: center;
+    font-family: 'outfit';
+}
 
+.group1-news h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.content-news h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#contextnews p{
+    margin: 0;
+    padding: 20px 0;
+}
+
+.content2-news h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#imgNews{
+    width: 100%;
+}
+
+.group1-news{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+
+.news button{
+    background-color: #615EFC;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+
+.news button:hover{
+    cursor: pointer;
+    background-color: #010038;
+
+}
+.news img{
+    height: 300px;
+}
+.display-news{
+    background-color: #F3F4F6;
+    
+}
+.content2-news{
+    text-align: center;
+    font-family: 'outfit';
+  
+}
+.news p{
+    font-weight: 200;
+    color: #424242;
+}
+.newsOnetxt{
+    font-weight: 300;
+}
+.newsTwotxt{
+    font-weight: 300;
+}
+.newsThreetxt{
+    font-weight: 300;
+}
+.newsOne{
+    display: flex;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.newsOneContent{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.newsOneContent a{
+    margin: 20px 0;
+    color: #615EFC;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+.newsOneContent a:hover{
+    color: #010038;
+}
+
+
+
+.newsTwo{
+    display: flex;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.newsTwoContent{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.newsTwoContent a{
+    margin: 20px 0;
+    color: #615EFC;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+
+.newsTwoContent a:hover{
+    color: #010038;
+}
+
+.newsThree{
+    display: flex;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.newsThreeContent{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.newsThreeContent a{
+    margin: 20px 0;
+    color: #615EFC;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+}
+.newsThreeContent a:hover{
+    color: #010038;
+}
+
+/*Contact Done*/
 
 
 
@@ -662,7 +827,7 @@ iframe{
         padding: 14px;
         font-size: 18px;
     }
-   
+
 
     .container2{
         display: flex;
@@ -778,6 +943,14 @@ iframe{
     #Welcome{
         font-size: 4rem;
     }
+
+
+    /*News*/
+    .news img{
+        height: 400px;
+    }
+
+
 
     /*Contact*/
     .form-contact{
@@ -1111,6 +1284,12 @@ iframe{
         font-size: 1.5rem;
     }
 
+    /*News*/
+    .news img{
+        height: 300px;
+    }
+
+
     /*Contact*/
     .form-contact{
         padding: 20px;
@@ -1373,6 +1552,67 @@ iframe{
         font-size: 16px;
     }
 
+
+    /*News*/
+    .imgContent-news h2{
+        font-size: 1.2rem;
+    }
+    #contextnews{
+        font-size: 12px;
+    }
+
+
+    .news img{
+        height: 200px;
+    }
+    .newsOneContent{
+        padding: 10px 20px;
+    }
+    .newsOneContent p{
+        font-size: 12px;
+    }
+    .newsOneContent h2{
+        font-size: 14px;
+    }
+    .newsOnetxt{
+        font-size: 12px;
+    }
+    .newsOneContent a{
+        font-size: 12px;
+    }
+
+
+    .newsTwoContent{
+        padding: 10px 20px;
+    }
+    .newsTwoContent p{
+        font-size: 12px;
+    }
+    .newsTwoContent h2{
+        font-size: 14px;
+    }
+    .newsTwotxt{
+        font-size: 12px;
+    }
+    .newsTwoContent a{
+        font-size: 12px;
+    }
+
+    .newsThreeContent{
+        padding: 10px 20px;
+    }
+    .newsThreeContent p{
+        font-size: 12px;
+    }
+    .newsThreeContent h2{
+        font-size: 14px;
+    }
+    .newsThreetxt{
+        font-size: 12px;
+    }
+    .newsThreeContent a{
+        font-size: 12px;
+    }
 
     /*Contact*/
     .form-contact{
@@ -1637,6 +1877,77 @@ iframe{
 
     #Welcome{
         font-size: 16px;
+    }
+
+
+    /*News*/
+    .content-news h1{
+        font-size: 1.5rem;
+    }
+    .imgContent-news h2{
+        font-size: 1rem;
+    }
+    #contextnews{
+        font-size: 12px;
+    }
+    #date{
+        font-size: 12px;
+    }
+
+
+    .news img{
+        height: 200px;
+    }
+    .newsOneContent{
+        padding: 10px 20px;
+    }
+    .newsOneContent p{
+        font-size: 12px;
+    }
+    .newsOneContent h2{
+        font-size: 12px;
+    }
+    .newsOnetxt{
+        font-size: 10px;
+    }
+    .newsOneContent a{
+        font-size: 12px;
+        margin: 6px 0;
+    }
+
+
+    .newsTwoContent{
+        padding: 10px 20px;
+    }
+    .newsTwoContent p{
+        font-size: 12px;
+    }
+    .newsTwoContent h2{
+        font-size: 12px;
+    }
+    .newsTwotxt{
+        font-size: 10px;
+    }
+    .newsTwoContent a{
+        font-size: 12px;
+        margin: 6px 0;
+    }
+
+    .newsThreeContent{
+        padding: 10px 20px;
+    }
+    .newsThreeContent p{
+        font-size: 12px;
+    }
+    .newsThreeContent h2{
+        font-size: 12px;
+    }
+    .newsThreetxt{
+        font-size: 10px;
+    }
+    .newsThreeContent a{
+        font-size: 12px;
+        margin: 6px 0;
     }
 
 
@@ -1910,6 +2221,114 @@ iframe{
     #Welcome{
         font-size: 16px;
     }
+
+    /*News*/
+    .content2-news{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-news h1{
+        font-size: 1.2rem;
+    }
+    .content-news p{
+        font-size: 14px;
+    }
+    .imgContent-news h2{
+        font-size: 0.8rem;
+    }
+    #contextnews{
+        font-size: 10px;
+    }
+    #date{
+        font-size: 10px;
+    }
+
+    .content2-news h1{
+        font-size: 0.8rem;
+    }
+
+    .newsOne{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .news img{
+        width: 300px;
+        height: 300px;
+    }
+    .newsOneContent{
+        padding: 10px 20px;
+        width: fit-content;
+    }
+    .newsOneContent p{
+        font-size: 12px;
+    }
+    .newsOneContent h2{
+        font-size: 12px;
+    }
+    .newsOnetxt{
+        font-size: 10px;
+    }
+    .newsOneContent a{
+        font-size: 12px;
+        margin: 6px 0;
+    }
+
+    .newsTwo{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .newsTwoContent{
+        padding: 10px 20px;
+    }
+    .newsTwoContent p{
+        font-size: 12px;
+    }
+    .newsTwoContent h2{
+        font-size: 12px;
+    }
+    .newsTwotxt{
+        font-size: 10px;
+    }
+    .newsTwoContent a{
+        font-size: 12px;
+        margin: 6px 0;
+    }
+
+    .newsThree{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .newsThreeContent{
+        padding: 10px 20px;
+    }
+    .newsThreeContent p{
+        font-size: 12px;
+    }
+    .newsThreeContent h2{
+        font-size: 12px;
+    }
+    .newsThreetxt{
+        font-size: 10px;
+    }
+    .newsThreeContent a{
+        font-size: 12px;
+        margin: 6px 0;
+    }
+
+    .news button{
+        font-size: 12px;
+    }
+
 
 
 
@@ -2352,6 +2771,114 @@ iframe{
         font-size: 5px;
         margin: 0;
     
+    }
+
+
+    /*News*/
+    .content2-news{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .content-news h1{
+        font-size: 1.2rem;
+    }
+    .content-news p{
+        font-size: 14px;
+    }
+    .imgContent-news h2{
+        font-size: 0.8rem;
+    }
+    #contextnews{
+        font-size: 10px;
+    }
+    #date{
+        font-size: 10px;
+    }
+
+    .content2-news h1{
+        font-size: 0.8rem;
+    }
+
+    .newsOne{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .news img{
+        width: auto;
+        height: auto;
+    }
+    .newsOneContent{
+        padding: 10px 20px;
+        width: fit-content;
+    }
+    .newsOneContent p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .newsOneContent h2{
+        font-size: 12px;
+    }
+    .newsOnetxt{
+        font-size: 8px;
+    }
+    .newsOneContent a{
+        font-size: 10px;
+        margin: 6px 0;
+    }
+
+    .newsTwo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .newsTwoContent{
+        padding: 10px 20px;
+    }
+    .newsTwoContent p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .newsTwoContent h2{
+        font-size: 12px;
+    }
+    .newsTwotxt{
+        font-size: 8px;
+    }
+    .newsTwoContent a{
+        font-size: 10px;
+        margin: 6px 0;
+    }
+
+    .newsThree{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .newsThreeContent{
+        padding: 10px 20px;
+    }
+    .newsThreeContent p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .newsThreeContent h2{
+        font-size: 12px;
+    }
+    .newsThreetxt{
+        font-size: 8px;
+    }
+    .newsThreeContent a{
+        font-size: 10px;
+        margin: 6px 0;
     }
 
 

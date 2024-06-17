@@ -22,8 +22,8 @@ body{
 
 #logo{
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 
@@ -612,7 +612,27 @@ iframe{
 
 
 
+/*Gallery*/
+.galleryPage h1{
+    text-align: center;
+    font-family: 'outfit';
+    font-weight: 500;
+}
 
+.container{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.container img{
+    width: 250px;
+    padding: 10px;
+}
 
 
 
@@ -741,6 +761,8 @@ iframe{
 }
 .FollowUs i{
     padding: 10px 0;
+    font-size: 18px;
+    color: #7d7bff;
 }
 
 .instagram{
@@ -1022,6 +1044,12 @@ iframe{
 
     
     /*contact end*/ 
+
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 38px;
+    }
+
   
     .group-1{
         width: 50%;
@@ -1055,6 +1083,9 @@ iframe{
         display: flex;
         justify-content: flex-end;
     }
+    .FollowUs i{
+        font-size: 28px;
+    }
    
     .group-2 h3{
         font-size: 2rem;
@@ -1086,6 +1117,13 @@ iframe{
 
 
 @media (max-width: 1920px){
+
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 32px;
+    }
+
+
     .group-1{
         width: 50%;
     }
@@ -1359,6 +1397,11 @@ iframe{
 
     
     /*contact end*/ 
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 32px;
+    }
+
     .group-1{
         width: 50%;
     }
@@ -1407,6 +1450,9 @@ iframe{
     }
     .FollowUs{
         margin: 0 20px;
+    }
+    .FollowUs i{
+        font-size: 18px;
     }
 
     .copyright p{
@@ -1683,6 +1729,12 @@ iframe{
 
     
     /*contact end*/ 
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 28px;
+    }
+
+
     .group-1{
         width: 50%;
         margin: 0;
@@ -2020,6 +2072,11 @@ iframe{
 
     
     /*contact end*/    
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 24px;
+    }
+    
   
     .group-1{
         width: 50%;
@@ -2400,7 +2457,14 @@ iframe{
     }
 
     
-    /*contact end*/    
+    /*contact end*/
+    
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 18px;
+    }
+    
+
     .group-1{
         width: 50%;
         margin: 0px;
@@ -2656,7 +2720,12 @@ iframe{
 
     
     /*contact end*/    
+     /*Gallery*/
+     .galleryPage h1{
+        font-size: 16px;
+    }
     
+
     .group-1{
         width: 50%;
         margin: 0px;
@@ -2946,6 +3015,15 @@ iframe{
     
         
         /*contact end*/    
+
+    /*Gallery*/
+    .galleryPage h1{
+        font-size: 14px;
+    }
+    
+
+
+
 
     #emailFooter{
         font-size: 4px;
